@@ -1,0 +1,186 @@
+body{background-image: url(Phone\ maintenance.jpeg);
+    background-repeat:no-repeat ;
+    background-position:center;
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-attachment: fixed;
+}
+  .navbar {
+    overflow: hidden;
+    background-color: rgba(8, 8, 8, 0.432);
+  }
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+    transition: 2s;
+  }
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+.content {padding: 25px;}
+aside{
+  float: left;
+  width: 30%;
+  background-color: rgba(8, 8, 8, 0.432);
+  height: 20vw;
+}
+.html{
+  width: 100px;
+  float: left;
+  margin-left: 280px;
+  margin-top: 5vw;
+  position: absolute;
+}
+.htmlh:hover{
+  color: white;
+  background-color: black;
+}
+.htmlh{
+  margin-top: 2vw;
+  margin-left:20vw ;
+  position: absolute;
+  transition: 2s;
+}
+.css{
+  width: 100px;
+  float: left;
+  margin-left: 30px;
+  margin-top: 5vw;
+  position: absolute;
+}
+.cssh:hover{
+  color: white;
+  background-color: black;
+}
+.cssh{
+  margin-top: 2vw;
+  position: absolute;
+  margin-left: 30px;
+  transition: 2s;
+}
+h1{color: black;}
+@media screen and (min-width:400px) and (max-width:600px) {
+.html{
+ width: 50px;
+ margin-top: 50px;
+ margin-left: 35px;
+}
+.htmlh{
+  font-size: medium;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+.css{
+  margin-top: 130px;
+  width: 50px;
+  margin-left: 35px;
+}
+.cssh{
+  margin-top: 108px;
+  margin-left: 25px;
+  font-size: medium;
+}
+aside{height: 50vw;}
+}
+@media screen and (min-width:1px) and (max-width:399px) {
+  .html{
+    width: 50px;
+    margin-left:30px ;
+    position: absolute;
+    margin-top: 30px;
+  }
+  .htmlh{
+    margin-top: 5px;
+    margin-left: 16px;
+    font-size: medium;
+    position: absolute;
+  }
+  .css{
+    width: 50px;
+    margin-left: 30px;
+    margin-top: 120px;
+    position: absolute;
+  }
+  .cssh{
+    margin-left: 16px;
+    font-size: medium;
+    position: absolute;
+    margin-top: 90px;
+  }
+  aside{height: 50vw;}
+}
+@media screen and (min-width:601px) and (max-width:800px) {
+.html{
+ width: 80px;
+ margin-top: 50px;
+ margin-left: 8vw;
+
+}
+.htmlh{
+  font-size: medium;
+  margin-top: 25px;
+  margin-left: 8vw;
+}
+.css{
+  margin-top: 22vw;
+  width: 80px;
+  margin-left: 8vw;
+}
+.cssh{
+  margin-top: 18vw;
+  margin-left: 8vw;
+  font-size: medium;
+}
+aside{height: 45vw;}
+}
+@media screen and (min-width:801px) and (max-width:1000px) {
+.html{
+ width: 100px;
+ margin-top: 50px;
+ margin-left: 8vw;
+}
+.htmlh{
+  font-size: large;
+  margin-top: 22px;
+  margin-left: 9vw;
+}
+.css{
+  margin-top: 23vw;
+  width: 100px;
+  margin-left: 8vw;
+}
+.cssh{
+  margin-top: 19.5vw;
+  margin-left: 9vw;
+  font-size: large;
+}
+aside{height: 45vw;}
+}
+@media screen and (min-width:1024px) and (max-width:1300px) {
+.html{
+ width: 100px;
+ margin-top: 50px;
+ margin-left: 16.5vw;
+}
+.htmlh{
+  font-size: x-large;
+  margin-top: 22px;
+  margin-left: 16vw;
+}
+.css{
+  margin-top: 50px;
+  width: 100px;
+  margin-left: 3.3vw;
+}
+.cssh{
+  margin-top: 22px;
+  margin-left: 3vw;
+  font-size: x-large;
+}
+}

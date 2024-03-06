@@ -1,0 +1,167 @@
+body{
+    background-image: url(books.jpeg);
+    background-repeat:no-repeat ;
+    background-position: center center;
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    overflow: hidden;
+    background-color: rgba(238, 166, 118, 0.747);
+  }
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+    transition: 2s;
+  }
+  .navbar a:hover {
+    background-color: #ddd;
+    color:black;
+  }
+main{
+  width: 70%;
+  height: 500px;
+  background-color: rgba(238, 238, 232, 0.322);
+  float: right;
+}
+main h1{
+  transition: 2s;
+}
+main h1:hover{
+  color:rgba(238, 166, 118, 0.747);
+  text-shadow: 2px 5px 5px black;
+}
+.html{
+  width: 250px;
+  height:150px;
+  margin-top: 180px;
+ position: absolute;
+ margin-left:45vw;
+}
+.htmlh{
+ margin-left: 49vw;
+ position: absolute;
+ margin-top: 90px;  
+}
+h1{
+  text-shadow: 2px 5px 5px white;
+  color: black;
+}
+img{border-radius: 55px;}
+.css{
+  width: 250px;
+  height:150px;
+  margin-top: 10.6vw;
+  position: absolute;
+  margin-left: 8vw;
+}
+.cssh{
+  margin-top: 4vw;
+  margin-left: 12vw;
+  position: absolute;
+}
+.content h1{
+  text-shadow: 2px 3px 3px white;
+  color:rgba(238, 166, 118, 0.747);
+}
+@media screen and (min-width:1px) and (max-width:400px) {
+  body{
+    background-repeat: repeat-y;
+  }
+  .html{
+    width: 100px;
+    margin-left:27vw;
+    margin-top: 12vw;
+  }
+  .htmlh{
+    font-size: medium;
+    margin-left: 30vw;
+    margin-top: 2vw;
+  }
+  .cssh{
+    font-size: medium;
+    margin-left: 31vw;
+    margin-top: 39vw;
+  }
+  .css{
+    width: 100px;
+    margin-left: 27vw;
+    margin-top: 49vw;
+  }
+}
+@media screen and (min-width:401px) and (max-width:600px) {
+  body{
+    background-repeat: repeat-y;
+  }
+  .html{
+    width: 100px;
+    margin-left:27vw;
+    margin-top: 12vw;
+  }
+  .htmlh{
+    font-size: medium;
+    margin-left: 30vw;
+    margin-top: 2vw;
+  }
+  .cssh{
+    font-size: medium;
+    margin-left: 31vw;
+    margin-top: 38vw;
+  }
+  .css{
+    width: 100px;
+    margin-left: 27vw;
+    margin-top: 48vw;
+  }
+}
+@media screen and (min-width:601px) and (max-width:800px) {
+  .html{
+    width: 20vw;
+    margin-top: 16.7vw;
+    margin-left: 43vw;
+  }
+  .htmlh{
+    margin-top: 9vw;
+    margin-left: 43vw;
+  }
+  .css{
+    width: 20vw;
+    margin-left: 9vw;
+    margin-top: 12vw;
+  }
+  .cssh{
+    margin-left: 10vw;
+  }
+}
+@media screen and (min-width:801px) and (max-width:1000px) {
+  .html{
+    width: 20vw;
+    margin-top: 16.7vw;
+    margin-left: 42vw;
+  }
+  .htmlh{
+    margin-top: 9vw;
+    margin-left: 43vw;
+  }
+  .css{
+    width: 20vw;
+    margin-left: 8vw;
+    margin-top: 12vw;
+  }
+  .cssh{
+    margin-left: 10vw;
+  }
+}
+@media screen and (min-width:1001px) and (max-width:1300px) {
+  .html{
+    margin-top: 14vw;
+  }
+  .htmlh{
+    margin-top: 7.5vw;
+  }
+}
